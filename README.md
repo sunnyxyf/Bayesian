@@ -4,7 +4,7 @@ Bayesain change-point detection model  is created to detect change points, it  u
 reparameterization techniques to select the prior distribution for the parameters of 
 datadistribution.Then,the posterior distribution of the change point time and hyperparameters
 are obtained by MCMC sampling, the location of the change point is get by the posterior probability.
-Citation: ????
+<strong>Citation:</strong> ????
 
 <h3>Requires</h3>
 <ul>
