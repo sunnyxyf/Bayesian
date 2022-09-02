@@ -7,8 +7,10 @@ are obtained by MCMC sampling, the location of the change point is get by the po
 Citation: ????
 
 <h3>Requires</h3>
-pymc3
-pandas
+<ul>
+<li>pymc3</li>
+<li>pandas</li>
+</ul>
 <h3>Install</h3>
 git clone git@https://github.com/sunnyxyf/Bayesian.git
 <h3>A Short Intrduction of Our Work</h3>
