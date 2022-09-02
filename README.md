@@ -18,10 +18,10 @@ are obtained by MCMC sampling, the location of the change point is get by the po
 git clone git@https://github.com/sunnyxyf/Bayesian.git
 <h3>A Short Intrduction of Our Work</h3>
 Alternative Transcription Start Site (ATSS) is a major driving force for increasing the complexity
-of transcripts in human tissues.We created a Bayersian change-point model for the relative ATSS usage as a 
+of transcripts in human tissues. We created a Bayersian change-point model for the relative ATSS usage as a 
 percentage data, which could accurately predict change point locations. With comprehensive simulation studies, 
 the performance of this model is consistently powerful and robust across most secnarios with different sample
-sizes and Beta distributions. Besides, we also applied this method to a real ATSS longitudinal dataset and performed
+sizes and Beta distributions. Besides, we also applied this model to a real ATSS longitudinal dataset and performed
 pathway analysis and TF motif and enrichment analysis to demonstrate its effectiveness of our novel framework and
 provide biological insights from the results.
 
