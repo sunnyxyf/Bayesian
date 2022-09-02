@@ -11,7 +11,7 @@ pymc3
 pandas
 <h3>Install</h3>
 git clone git@https://github.com/sunnyxyf/Bayesian.git
-A Short Intrduction of Our Work
+<h3>A Short Intrduction of Our Work</h3>
 Alternative Transcription Start Site (ATSS) is a major driving force for increasing the complexity
 of transcripts in human tissues.We created a Bayersian change-point model for the relative ATSS usage as a 
 percentage data, which could accurately predict change point locations. With comprehensive simulation studies, 
