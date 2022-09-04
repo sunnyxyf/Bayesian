@@ -7,7 +7,7 @@ datadistribution.Then,the posterior distribution of the change point time and hy
 are obtained by MCMC sampling, the location of the change point is get by the posterior probability.
 </p>
 <p>
-<strong>Citation:</strong> ????
+<strong>Citation:</strong> Juan Xia1, Haotian Zhu2 , Feiyang Xue2 , Nana Li1*  and Feng Shi1*(2022), An Bayesian change-point model for ATSS longitudinal data by next-generation RNA sequencing
 </p>
 <h3>Requires</h3>
 <ul>
