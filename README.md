@@ -32,7 +32,7 @@ transitions between different states). Using the detection of one change-point
 the posterior probabilities of multiple time points are close for a few differential ATSS events. For
 these differential ATSS events, this study constructed two change-point detection model, the change points 
 for these differential ATSS events are determined from the posterior distributions of τ1 and τ2 (in time series
-, there exists two change points, τ<SUB>1</SUB> and τ<SUB>2</SUB, where τ<SUB>1</SUB <τ<SUB>2</SUB ). Based on the one and two change-points Bayesian
+  , there exists two change points, τ<SUB>1</SUB> and τ<SUB>2</SUB>, where τ<SUB>1</SUB> < τ<SUB>2</SUB> ). Based on the one and two change-points Bayesian
 detection models, the differential ATSS events are clustered according to the time of the change point.</p> 
 <p>Next,we focused on evaluating the impact of sample sizes and difference in Beta distribution, with comprehensive
 simulation studies, the performance of this model is consistently powerful and robust across most secnarios with
