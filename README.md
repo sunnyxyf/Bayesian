@@ -1,13 +1,16 @@
 # Bayesian
 <h3>Bayesain change-point detection model</h3>
 <p>
-Bayesain change-point detection model  is created to detect change points, it  uses
-reparameterization techniques to select the prior distribution for the parameters of 
-datadistribution.Then,the posterior distribution of the change point time and hyperparameters
-are obtained by MCMC sampling, the location of the change point is get by the posterior probability.
+Bayesain change-point detection model in this paper is created to detect change point for the relative
+ATSS usage as a percentage data, Beta distribution is applied to fit the longitudinal ATSS data in this 
+Bayesian model.Then, we use reparameterization techniques to select the prior distribution for the 
+parameters of Beta distribution and the prior distribution of change point is determined to be discrete
+uniform distribution. Finally,the posterior distribution of the change point and hyperparameters are 
+obtained by MCMC sampling.
 </p>
 <p>
-<strong>Citation:</strong> Juan Xia1, Haotian Zhu2 , Feiyang Xue2 , Nana Li1*  and Feng Shi1*(2022), An Bayesian change-point model for ATSS longitudinal data by next-generation RNA sequencing
+<strong>Citation:</strong> Juan Xia1, Haotian Zhu2 , Feiyang Xue2 , Nana Li1*  and Feng Shi1*(2022), An Bayesian 
+  change-point model for  Alternative Transcription Start Site (ATSS) longitudinal data by next-generation RNA sequencing
 </p>
 <h3>Requires</h3>
 <ul>
@@ -18,12 +21,25 @@ are obtained by MCMC sampling, the location of the change point is get by the po
 git clone git@https://github.com/sunnyxyf/Bayesian.git
 <h3>A Short Intrduction of Our Work</h3>
 Alternative Transcription Start Site (ATSS) is a major driving force for increasing the complexity
-of transcripts in human tissues. We created a Bayersian change-point model for the relative ATSS usage as a 
-percentage data, which could accurately predict change point locations. With comprehensive simulation studies, 
-the performance of this model is consistently powerful and robust across most secnarios with different sample
-sizes and Beta distributions. Besides, we also applied this model to a real ATSS longitudinal dataset and performed
-pathway analysis and TF motif and enrichment analysis to demonstrate its effectiveness of our novel framework and
-provide biological insights from the results.
+of transcripts in human tissues. The change-point detection algorithms are the effective methods to 
+investigate the longitudinal dataset like the relative ATSS usage as a percentage data, which could 
+identify the time point dividing a time series into tow segments where each segment has its own statstical
+characteristics.
+In this paper,first, one change-point detection model is constructed for each differential ATSS event,
+the change points for these differential ATSS events are determined from the posterior distributions of
+τ (at a certain time point τ, which happened an abrupt variation in time series data and may represent
+transitions between different states). Using the detection of one change-point model,it is found that
+the posterior probabilities of multiple time points are close for a few differential ATSS events. For
+these differential ATSS events, this study constructed two change-point detection model, the change points 
+for these differential ATSS events are determined from the posterior distributions of τ1 and τ2 (in time series
+, there exists two change points, τ1 and τ2, where τ1 <τ2 ). Based on the one and two change-points Bayesian
+detection models, the differential ATSS events are clustered according to the time of the change point. 
+Next,we focused on evaluating the impact of sample sizes and difference in Beta distribution, with comprehensive
+simulation studies, the performance of this model is consistently powerful and robust across most secnarios with
+different sample sizes and Beta distributions.
+Finally, according to the results of clustering, we applied this model to the real ATSS longitudinal dataset and 
+performed pathway analysis and TF motif and enrichment analysis to demonstrate its effectiveness of our novel 
+framework and provide biological insights from the results.
 
 <h3>Contact</h3>
-If you have any questions or suggestions, please mail to 2414271896@qq.com or niuxiaoh@mail.hzau.edu.cn.
+If you have any questions or suggestions, please mail to 2414271896@qq.com or shifeng@mail.hzau.edu.cn.
