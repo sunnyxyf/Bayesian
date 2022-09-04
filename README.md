@@ -20,11 +20,11 @@ obtained by MCMC sampling.
 <h3>Install</h3>
 git clone git@https://github.com/sunnyxyf/Bayesian.git
 <h3>A Short Intrduction of Our Work</h3>
-Alternative Transcription Start Site (ATSS) is a major driving force for increasing the complexity
+<p>Alternative Transcription Start Site (ATSS) is a major driving force for increasing the complexity
 of transcripts in human tissues. The change-point detection algorithms are the effective methods to 
 investigate the longitudinal dataset like the relative ATSS usage as a percentage data, which could 
 identify the time point dividing a time series into tow segments where each segment has its own statstical
-characteristics.
+characteristics.</p>
 In this paper,first, one change-point detection model is constructed for each differential ATSS event,
 the change points for these differential ATSS events are determined from the posterior distributions of
 τ (at a certain time point τ, which happened an abrupt variation in time series data and may represent
