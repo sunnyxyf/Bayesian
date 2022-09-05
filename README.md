@@ -16,6 +16,7 @@ obtained by MCMC sampling.
 <ul>
 <li>pymc3</li>
 <li>pandas</li>
+<li>numpy</li>
 </ul>
 <h3>Install</h3>
 git clone git@https://github.com/sunnyxyf/Bayesian.git
