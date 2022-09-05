@@ -1,2 +1,4 @@
-First,the 'one change point model.py' is used for all ATSS events. After filtering the ATSS events with one change point,
-run 'two change point models.py' for the remaining ATSS events.
+<p>When we applied 'all ATSS events.csv' to 'one change point model.py', we should delete the first column to run the model,
+it is the same as 'two change points ATSS events.csv'.</p>
+
+
