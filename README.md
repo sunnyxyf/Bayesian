@@ -4,7 +4,7 @@
 Bayesain change-point detection model in this paper is created to detect change point for the relative
 ATSS usage as a percentage data, Beta distribution is applied to fit the longitudinal ATSS data in this 
 Bayesian model.Then, we use reparameterization techniques to select the prior distribution for the 
-parameters of Beta distribution and the prior distribution of change point is determined to be discrete
+parameters of Beta distribution and the prior distribution of change-point is determined to be discrete
 uniform distribution. Finally,the posterior distribution of the change point and hyperparameters are 
 obtained by MCMC sampling.
 </p>
