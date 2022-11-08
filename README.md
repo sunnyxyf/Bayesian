@@ -43,4 +43,4 @@ performed pathway analysis and TF motif and enrichment analysis to demonstrate i
 framework and provide biological insights from the results.</p>
 
 <h3>Contact</h3>
-If you have any questions or suggestions, please mail to 2414271896@qq.com or shifeng@mail.hzau.edu.cn.
+If you have any questions or suggestions, please mail to xia_juan@webmail.hzau.edu.cn or nnl1010@126.com.
